@@ -7,7 +7,7 @@
         <div class=" px-2 pt-12 grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-4">
             <div  v-for="shirt in shirts" :key="shirt.name">
                 <div class="cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-105  duration-300  w-60">
-                    <img class="w-full" :src="shirt.img" alt="">
+                    <img class="w-full rounded-md" :src="shirt.img" alt="">
                     <p class="text-xl pt-2 font-semibold">{{ shirt.name }}</p>
                     <p class="">₦{{shirt.price}} </p>
                 </div>
